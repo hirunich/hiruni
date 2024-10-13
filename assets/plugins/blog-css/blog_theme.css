@@ -1,0 +1,115 @@
+
+/* DevOps Blog Theme CSS */
+
+/* General styles */
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    color: #434343;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #606b76;
+}
+
+.header .container{
+    padding: 30px 0;
+    background: #f5f5f5;
+    border-bottom: 2px solid #3aaa64;
+    text-align: center;
+    background-image: url("4.jpg"); /* Set the background image */
+
+}
+
+.header .name {
+    font-size: 36px;
+    color: #2d844e;
+}
+
+.header .desc {
+    font-size: 20px;
+    color: #3aaa64;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+    padding: 20px;
+}
+
+.sections-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section .heading {
+    font-size: 28px;
+    color: #545e69;
+    margin-bottom: 20px;
+}
+
+.section .content p {
+    margin-bottom: 15px;
+}
+
+.section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    background: #32383e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #a1aab4;
+}
+
+a {
+    color: #3aaa64;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    color: #2d844e;
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.btn,
+a.btn {
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 20px;
+    background-color: #54ba4e;
+    border: 1px solid #54ba4e;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.4s;
+}
+
+.btn:hover,
+a.btn:hover {
+    background-color: #49ac43;
+    border-color: #49ac43;
+}
+
